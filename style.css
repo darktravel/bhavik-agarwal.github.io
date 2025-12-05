@@ -1,80 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+/* ---------------- Theme variables ---------------- */
+
+:root {
+  /* default = dark theme; overridden when data-theme="light" */
+  --bg-color: #050608;
+  --text-color: #f5f5f5;
+  --heading-color: #ffffff;
+  --link-color: #8adf7b;
+  --link-hover-color: #b7f7aa;
+  --link-border-color: #8adf7b;
+  --visited-link-color: #8adf7b;
+  --u-border-color: #ffffff;
+  --footer-text-color: #aaaaaa;
+}
+
+:root[data-theme="light"] {
+  --bg-color: #f9f9f9;
+  --text-color: #333333;
+  --heading-color: #000000;
+  --link-color: #006400;
+  --link-hover-color: #009900;
+  --link-border-color: #006400;
+  --visited-link-color: #006400;
+  --u-border-color: #000000;
+  --footer-text-color: #888888;
+}
+
+/* ---------------- Layout & typography ---------------- */
+
 body {
-	color: #333;
-	font-family: "Open Sans", sans-serif;
-	line-height: 1.5;
-	max-width: 720px;
-	margin: auto;
-	padding: 1em;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  max-width: 720px;
+  margin: auto;
+  padding: 1em;
 }
 
 #profile_pic {
-	float: right;
-	width: 130px;
+  float: right;
+  width: 130px;
 }
 
-h1, h2 {
-	color: #000;
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Cambria, Georgia, serif;
-	font-weight: normal;
+h1,
+h2 {
+  color: var(--heading-color);
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Cambria, Georgia, serif;
+  font-weight: normal;
 }
 
 h1 {
-	font-size: 3rem;
-	margin-top: 2.0rem;
-	margin-bottom: 1.0rem;
-	line-height: 1.0;
+  font-size: 3rem;
+  margin-top: 2.0rem;
+  margin-bottom: 1.0rem;
+  line-height: 1.0;
 }
 
 h2 {
-	font-size: 2rem;
-	margin-top: 3rem;
-	margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
-	font-weight: normal;
-	margin-bottom: 4.5rem;
+  font-weight: normal;
+  margin-bottom: 4.5rem;
 }
 
 th {
-	padding: 0 1rem;
-	text-align: right;
-	font-weight: 600;
+  padding: 0 1rem;
+  text-align: right;
+  font-weight: 600;
 }
 
 li {
-	margin: 1rem 0;
+  margin: 1rem 0;
 }
+
+/* ---------------- Links & emphasis ---------------- */
 
 a {
-	color: green;
-	text-decoration: none;
-	/* border-bottom: solid 1px; */
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: solid 1px transparent;
 }
 
-a:active, a:focus, a:hover {
-	border-bottom: solid 2px;
+a:active,
+a:focus,
+a:hover {
+  border-bottom: solid 2px var(--link-border-color);
 }
 
 a:visited {
-	color: green;
+  color: var(--visited-link-color);
 }
 
 u {
-	text-decoration: none;
-	border-bottom: 1px solid black;
+  text-decoration: none;
+  border-bottom: 1px solid var(--u-border-color);
 }
 
 b {
-	font-weight: 600;
+  font-weight: 600;
 }
+
+/* ---------------- Footer ---------------- */
 
 footer {
-	margin-top: 3rem;
-	color: #888;
-	font-size: 0.9rem;
-	text-align: center;
+  margin-top: 3rem;
+  color: var(--footer-text-color);
+  font-size: 0.9rem;
+  text-align: center;
 }
 
+/* ---------------- Header + theme toggle ---------------- */
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#theme-toggle {
+  border-radius: 999px;
+  padding: 4px 10px;
+  border: 1px solid var(--link-border-color);
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+#theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
