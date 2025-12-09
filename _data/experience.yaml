@@ -24,6 +24,12 @@ experiences:
   subtitle: "Explored compact models and attention budgeting for tool-using LMs and dense retrievers."
   category: "work"
 
+- place: "Johns Hopkins University"
+  time: "Aug. 2023 - May 2025"
+  title: "M.S. in Computer Science (Thesis)"
+  subtitle: "Advisor: Prof. Casey Overby Taylor; focus on RAG and LLM evaluation for genomics and pharmacogenomics."
+  category: "school"
+
 - place: "BlueStacks / now.gg"
   time: "Jul. 2022 - Jul. 2023"
   title: "Senior AI/ML Engineer"
@@ -36,11 +42,6 @@ experiences:
   subtitle: "Implemented telemetry-driven reliability checks and ML-assisted firmware validation."
   category: "work"
 
-- place: "Johns Hopkins University"
-  time: "Aug. 2023 - May 2025"
-  title: "M.S. in Computer Science (Thesis)"
-  subtitle: "Advisor: Prof. Casey Overby Taylor; focus on RAG and LLM evaluation for genomics and pharmacogenomics."
-  category: "school"
 
 - place: "IIIT-Delhi"
   time: "Aug. 2018 - Apr. 2022"
