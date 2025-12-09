@@ -8,17 +8,25 @@ papers:
     selected: y
 
   - title: "RAGulating Compliance: A Multi-Agent Knowledge Graph for Regulatory QA"
-    year: "2025"
     authors: "<b><u>Bhavik Agarwal</u></b>, Hemant Sunil Jomraj, Simone Kaplunov, Jack Krolick, Viktoria Rojkova"
     venue: "International Semantic Web Conference (ISWC) 2025"
     paper_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SlFuNGkAAAAJ&citation_for_view=SlFuNGkAAAAJ:Y0pCki6q_DkC"
     selected: y
 
   - title: "Design and Evaluation of GPT and RAG-Based QA Systems for Genomic and Pharmacogenomic Patient Queries"
-    year: "2025"
     authors: "<b><u>Bhavik Agarwal</u></b>"
     venue: "Master’s Thesis, Johns Hopkins University"
     paper_pdf: "https://jscholarship.library.jhu.edu/items/d8994d79-7f4c-48e1-8fa4-d6e32c8a0446"
+    selected: y
+
+  - title: "Multi-Agent Embedding-Space API Orchestration for Enterprise Assistants"
+    authors: "<b><u>Bhavik Agarwal</u></b>, Julien Yu, Anil Babu Ankisettipalli, Sebastien Schrieber"
+    venue: "U.S. Patent Application 19/022,406 (originated at SAP)"
+    selected: y
+
+  - title: "Multi-Agent Knowledge Graph Retrieval with Evidence Grounding"
+    authors: "<b><u>Bhavik Agarwal</u></b>, Hemant Sunil Jomraj, Simone Kaplunov, Jack Krolick, Viktoria Rojkova"
+    venue: "U.S. Patent Application 19/355,798 (originated at MasterControl)"
     selected: y
 
   - title: "Taxonomy-based prompt engineering to generate synthetic drug-related patient portal messages"
@@ -42,13 +50,4 @@ papers:
     paper_pdf: "https://www.iosrjournals.org/iosr-jap/papers/Vol12-issue5/Series-2/I1205025359.pdf"
     selected: y
 
-  - title: "Multi-Agent Embedding-Space API Orchestration for Enterprise Assistants"
-    year: "Patents"
-    authors: "<b><u>Bhavik Agarwal</u></b>, Julien Yu, Anil Babu Ankisettipalli, Sebastien Schrieber"
-    venue: "U.S. Patent Application 19/022,406 (originated at SAP)"
-    selected: y
-
-  - title: "Multi-Agent Knowledge Graph Retrieval with Evidence Grounding"
-    authors: "<b><u>Bhavik Agarwal</u></b>, Hemant Sunil Jomraj, Simone Kaplunov, Jack Krolick, Viktoria Rojkova"
-    venue: "U.S. Patent Application 19/355,798 (originated at MasterControl)"
-    selected: y
+ 
