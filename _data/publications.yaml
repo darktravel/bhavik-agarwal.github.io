@@ -1,5 +1,12 @@
 papers:
 
+ - title: "From Paper to Structured JSON: An Agentic AI Workflow for Compliant BMR Digital Transformation"
+    year: "2026"
+    authors: "<b><u>Bhavik Agarwal</u></b>, Nidhi Bendre, Viktoria Rojkova"
+    venue: "European Chapter of the Association for Computational Linguistics 2026 (EACL)"
+    paper_pdf: ""
+    selected: y
+
   - title: "Think Inside the JSON: Reinforcement Strategy for Strict LLM Schema Adherence"
     year: "2025"
     authors: "<b><u>Bhavik Agarwal</u></b>, Ishan Joshi, Viktoria Rojkova"
