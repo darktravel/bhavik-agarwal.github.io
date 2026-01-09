@@ -4,7 +4,7 @@ papers:
     year: "2026"
     authors: "<b><u>Bhavik Agarwal</u></b>, Nidhi Bendre, Viktoria Rojkova"
     venue: "European Chapter of the Association for Computational Linguistics 2026 (EACL)"
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/pdf/2601.04368v1"
     selected: y
 
   - title: "Think Inside the JSON: Reinforcement Strategy for Strict LLM Schema Adherence"
